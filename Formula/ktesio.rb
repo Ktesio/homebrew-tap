@@ -1,26 +1,25 @@
 class Ktesio < Formula
-  desc "Agentic skills package manager"
+  desc "Run AI agents like services: supervise their lifecycle, meter real token usage, and enforce dollar budgets."
   homepage "https://github.com/iMagdy/ktesio"
-  version "0.5.0"
-  license "PolyForm-Noncommercial-1.0.0"
-
-  depends_on "git"
+  version "0.7.0"
+  # Ktesio Noncommercial-Attribution License 1.0.0 — source-available; commercial use requires the author's written approval.
+  license :any
 
   on_macos do
     on_arm do
-      url "https://github.com/iMagdy/ktesio/releases/download/v0.5.0/ktesio-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8a8a2cd14dc0a72d33091482c5e4cf791359a656c98762b3f4f800dafec2ee9f"
+      url "https://github.com/iMagdy/ktesio/releases/download/v0.7.0/ktesio-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5396006913f9a497761db8864e02e080c4ec5e491a46d89148261d4710309b52"
     end
 
     on_intel do
-      url "https://github.com/iMagdy/ktesio/releases/download/v0.5.0/ktesio-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "497da6ec59dd2a72b2f291f47a20fb88c397f5eb9032a9ec2c22b57316654fcd"
+      url "https://github.com/iMagdy/ktesio/releases/download/v0.7.0/ktesio-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "435d920a53ef6a033d0ce44f18094c8179938b01fa0f6520f9334a8d837b493f"
     end
   end
 
   on_linux do
-    url "https://github.com/iMagdy/ktesio/releases/download/v0.5.0/ktesio-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "5ecbedb16da988db4e342a31a183cc003e11a9985bcdd9b4e10499e4910d0172"
+    url "https://github.com/iMagdy/ktesio/releases/download/v0.7.0/ktesio-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "24c060917b0294915f599e1f410ef6961bdf2c7f88a3e5d31eaabbccd517a849"
   end
 
   def install
