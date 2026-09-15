@@ -1,19 +1,19 @@
-# iMagdy Homebrew Tap
+# Ktesio Homebrew Tap
 
-Homebrew tap for my command-line tools.
+Homebrew tap for the Ktesio org's command-line tools.
 
 ## Install skm
 
 After an `skm` release publishes its formula:
 
 ```bash
-brew install imagdy/tap/skm
+brew install ktesio/tap/skm
 ```
 
 Or tap the repository first:
 
 ```bash
-brew tap imagdy/tap
+brew tap ktesio/tap
 brew install skm
 ```
 
