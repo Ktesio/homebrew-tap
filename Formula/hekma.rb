@@ -1,25 +1,24 @@
 class Hekma < Formula
   desc "Run AI agents like services: supervise their lifecycle, meter real token usage, and enforce dollar budgets."
   homepage "https://github.com/Ktesio/hekma"
-  version "0.8.1"
-  # Hekma ships the Ktesio Noncommercial-Attribution License 1.0.0 — source-available; commercial use requires the author's written approval.
-  license :any
+  version "0.9.0"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Ktesio/hekma/releases/download/v0.8.1/hekma-v0.8.1-aarch64-apple-darwin.tar.gz"
-      sha256 "23fbf567fc27f9e42be72734c6d59af5f2b6d7ba29dd2ddb1f13ee88b48b6921"
+      url "https://github.com/Ktesio/hekma/releases/download/v0.9.0/hekma-v0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "cec0c73d718cadd989a4f4f79d1e73f0d9f3e51f709b0bb843f8af2df5e17c1b"
     end
 
     on_intel do
-      url "https://github.com/Ktesio/hekma/releases/download/v0.8.1/hekma-v0.8.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e750f88225d0ba463b5ac6cd3dfffbef6820d2ff0630a54957571af2047f8dcf"
+      url "https://github.com/Ktesio/hekma/releases/download/v0.9.0/hekma-v0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "33eb894eac0320a7e08e83c3bc278e295cfb211b5099c58902babd7addd72ba3"
     end
   end
 
   on_linux do
-    url "https://github.com/Ktesio/hekma/releases/download/v0.8.1/hekma-v0.8.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "eefbf98b9e78e6187650fc110f5b02c7c953071dbd0c67176af08e13ae487efd"
+    url "https://github.com/Ktesio/hekma/releases/download/v0.9.0/hekma-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "8dccf8dd44f652d06d36e042c5492ba53e6d3be5732b9409cce5e22a73179140"
   end
 
   def install
